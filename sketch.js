@@ -47,7 +47,7 @@ function draw() {
     balloon.addAnimation("hotAirBalloon",balloonImage2);
     //write code to move air balloon in down direction
     updateHeight(0,10);
-    balloon.scale=balloon.scale+0.01;
+    balloon.scale=balloon.scale+0.02;
   }
 
   drawSprites();
